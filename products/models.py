@@ -5,7 +5,7 @@ from django.db import models
 
 from django.db import models
 from django.contrib.auth.models import User, AbstractUser
-from interview_task.settings import AUTH_USER_MODEL
+from e_commerce_app.settings import AUTH_USER_MODEL
 
 class ProductCategory(models.Model):
     name = models.CharField(max_length=100)
